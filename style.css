@@ -37,3 +37,43 @@ kbd,code,pre{font-family:var(--sans)}
 .brief-tab:hover,.brief-tab.active{color:var(--accent)}
 .brief-tab.active{font-weight:600;text-decoration:underline;text-underline-offset:7px}
 @media(max-width:650px){.brief-filters{gap:10px 20px}.brief-tab{font-size:12px}}
+
+/* Academic refinement: hairline states, Song-style headings, unchanged body face. */
+:root{--heading:'STZhongsong','Noto Serif SC','Songti SC','SimSun',serif;--line:#e2dedb}
+.brand,h1,h2,h3,h4,h5,h6,.entry h3,.section-line h2,.file-row button,article h2{font-family:var(--heading);font-weight:700}
+.brand{font-size:30px;letter-spacing:1px;line-height:1.35}
+.brand small{font-family:var(--sans);font-weight:400;letter-spacing:1.7px;margin-top:7px}
+.masthead{border-bottom-color:#c9c2bd}
+.side-title{margin-bottom:18px}.side-title span{letter-spacing:1.1px;color:#77706b}
+.nav-item{position:relative;padding:10px 0;border-bottom:1px solid transparent}
+.nav-item.active,.nav-item:hover{background:transparent;color:var(--accent)}
+.nav-item.active{border-bottom-color:var(--accent)}
+.nav-item span{color:var(--muted)}
+.direction-option{position:relative;padding:8px 0;border-bottom:1px solid transparent}
+.direction-option:hover,.direction-option.active{background:transparent;color:var(--accent)}
+.direction-option.active{border-bottom-color:var(--accent)}
+.direction-option.active span:first-child{font-weight:500}
+.direction-option span:last-child{color:var(--muted)}
+.tree-file:hover,.tree-file.selected{background:transparent;text-decoration:underline;text-decoration-thickness:1px}
+.tree-label{padding-top:22px;margin-top:24px;letter-spacing:.4px}
+.sidebar footer{font-size:11px;line-height:2.1}
+.toolbar{border-bottom-color:#c9c2bd;padding-top:8px;padding-bottom:10px}
+.search svg{stroke-width:1}
+kbd{background:transparent;border-color:#ded9d5;font-size:11px;padding:1px 6px}
+.brief-filters{padding:13px 0 0;gap:8px 26px}
+.brief-tab{padding:8px 0 12px;border-bottom:1px solid transparent;margin-bottom:-1px}
+.brief-tab.active{font-weight:500;text-decoration:none;border-bottom-color:var(--accent)}
+.section-line{margin:22px 0 5px}.section-line h2{font-size:17px;letter-spacing:.5px}
+.entry h3{font-size:20px;line-height:1.4;margin-bottom:5px}
+.entry h3 button:hover{text-decoration-thickness:1px}
+.entry{padding:15px 0;border-bottom-color:var(--line)}
+.entry-id{letter-spacing:.6px;color:#77706b}
+.entry-meta{column-gap:14px;row-gap:4px;line-height:1.7}
+.text-button:hover,.favorite-button[aria-pressed="true"]{text-decoration-thickness:1px}
+article h1{letter-spacing:.6px}article h2{letter-spacing:.3px}
+article th{background:transparent;font-weight:600;border-top:1px solid #c9c2bd}
+article pre{background:transparent;border:1px solid var(--line)}
+article blockquote{border-left-color:#c9c2bd}
+#toast{background:#fff;color:var(--ink);border:1px solid #c9c2bd}
+::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-thumb{background:#c9c2bd}
+@media(max-width:650px){.brand{font-size:25px}.brand small{font-size:10px;letter-spacing:1px}.nav-item{padding:8px 0;margin-right:18px}.entry h3{font-size:19px}.section-line{margin-top:20px}.brief-filters{gap:8px 20px}.brief-tab{padding-bottom:11px}}
