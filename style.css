@@ -77,3 +77,8 @@ article blockquote{border-left-color:#c9c2bd}
 #toast{background:#fff;color:var(--ink);border:1px solid #c9c2bd}
 ::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-thumb{background:#c9c2bd}
 @media(max-width:650px){.brand{font-size:25px}.brand small{font-size:10px;letter-spacing:1px}.nav-item{padding:8px 0;margin-right:18px}.entry h3{font-size:19px}.section-line{margin-top:20px}.brief-filters{gap:8px 20px}.brief-tab{padding-bottom:11px}}
+
+/* Same typeface and weight as yashi.genle.win headings; self-hosted. */
+@font-face{font-family:ResearchSerif;src:url('./fonts/SourceHanSerifCN-Heavy.woff2') format('woff2');font-weight:900;font-style:normal;font-display:swap}
+:root{--heading:ResearchSerif,'Source Han Serif SC','Source Han Serif CN','Noto Serif CJK SC',SimSun,serif}
+.brand,h1,h2,h3,h4,h5,h6,.entry h3,.section-line h2,.file-row button,article h2{font-family:var(--heading);font-weight:900}

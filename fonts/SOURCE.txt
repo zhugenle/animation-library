@@ -1,0 +1,5 @@
+Source Han Serif CN Heavy (weight 900)
+Official source: https://github.com/adobe-fonts/source-han-serif/tree/release/SubsetOTF/CN
+License: SIL Open Font License, see LICENSE.txt
+Converted from OTF to WOFF2 with fontTools; glyph set preserved.
+Reference: yashi.genle.win uses ResearchSerif / SourceHanSerifCN-Heavy.otf, weight 900.
